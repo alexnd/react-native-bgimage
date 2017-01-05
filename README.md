@@ -3,6 +3,7 @@
 ## Background images for react native
 
 Renders your android res/drawable* images in tiling mode (repeated background) in most optimized way.
+**Currently supports only Android**
 
 ### Installation
 
@@ -28,7 +29,7 @@ compile project(':react-native-bgimage')
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-          new BgImagePackage(),
+          new BgImagePackage(), // <-- add here
           // other modules...
       );
     }
@@ -39,7 +40,9 @@ compile project(':react-native-bgimage')
 import BgImage from 'react-native-bgimage';
 
 render() {
-	return <BgImage drawableId="testbg" style={{height:64}}/>
+	return <BgImage drawableId="testbg" style={{height:64}}>
+	    <Text style={{textAlign: 'center'}}>Hello!</Text>
+	</BgImage>
 }
 ```
 
