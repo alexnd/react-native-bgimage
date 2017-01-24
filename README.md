@@ -8,7 +8,7 @@ Renders your android res/drawable* images in tiling mode (repeated background) i
 ### Installation
 
 - put your images in drawables directory: **android/app/src/main/res/drawable-[m|h|x|xx|xxx]dpi**
-- run: **npm install --save react-native-bgimage.git**
+- run: **npm install --save react-native-bgimage**
 - run: **react-native link** (or link it manually)
 
 ### To manual link
