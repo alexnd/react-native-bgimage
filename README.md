@@ -8,7 +8,7 @@ Renders your android res/drawable* images in tiling mode (repeated background) i
 ### Installation
 
 - put your images in drawables directory: **android/app/src/main/res/drawable-[m|h|x|xx|xxx]dpi**
-- run: **npm install --save https://github.com/alexnd/react-native-bgimage.git**
+- run: **npm install --save react-native-bgimage.git**
 - run: **react-native link** (or link it manually)
 
 ### To manual link
@@ -40,7 +40,7 @@ compile project(':react-native-bgimage')
 import BgImage from 'react-native-bgimage';
 
 render() {
-	return <BgImage drawableId="testbg" style={{height:64}}>
+	return <BgImage drawable="testbg" style={{height:64}}>
 	    <Text style={{textAlign: 'center'}}>Hello!</Text>
 	</BgImage>
 }

@@ -20,7 +20,7 @@ public class BgImageManager extends ViewGroupManager<BgImageView> {
   }
 
   public BgImageManager(Object callerContext) {
-      mCallerContext = callerContext;
+    mCallerContext = callerContext;
   }
 
   public BgImageManager() {
@@ -32,9 +32,9 @@ public class BgImageManager extends ViewGroupManager<BgImageView> {
     return new BgImageView(context);
   }
 
-  @ReactProp(name = "drawableId")
-  public void setDrawableId(BgImageView view, @Nullable String drawableId) {
-    view.setDrawableId(drawableId);
+  @ReactProp(name = "drawable")
+  public void setDrawable(BgImageView view, @Nullable String id) {
+    view.setDrawable(id);
   }
 
 }

@@ -31,7 +31,7 @@ public class BgImageView extends ViewGroup {
   }
 
   // setter: resolve img by string id from drawable folder than set background
-  public void setDrawableId(String id) {
+  public void setDrawable(String id) {
     if(id != null && !id.isEmpty()) {
       int rID = resources.getIdentifier(id, "drawable", context.getPackageName());
       if (rID > 0 && resourceID != rID) {

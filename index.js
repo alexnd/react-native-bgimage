@@ -6,7 +6,7 @@ import { requireNativeComponent, View } from 'react-native';
 var iface = {
 	name: 'BgImage',
 	propTypes: {
-		drawableId: PropTypes.string,
+		drawable: PropTypes.string,
 		...View.propTypes // include the default view properties
 	}
 };
