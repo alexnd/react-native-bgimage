@@ -11,7 +11,7 @@ import com.facebook.react.uimanager.annotations.ReactProp;
 @ReactModule(name = BgImageManager.REACT_CLASS)
 public class BgImageManager extends ViewGroupManager<BgImageView> {
 
-  protected static final String REACT_CLASS = "RCTBgImage";
+  protected static final String REACT_CLASS = "RNTBgImage";
   private final @Nullable Object mCallerContext;
 
   @Override

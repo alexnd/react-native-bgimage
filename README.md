@@ -3,13 +3,12 @@
 ## Background images for react native
 
 Renders your android res/drawable* images in tiling mode (repeated background) in most optimized way.
-**Currently supports only Android**
 
 ### Installation
 
 - put your images in drawables directory: **android/app/src/main/res/drawable-[m|h|x|xx|xxx]dpi**
 - run: **npm install --save react-native-bgimage**
-- run: **react-native link** (or link it manually)
+- run: **react-native link react-native-bgimage** (or link it manually)
 
 ### To manual link
 
@@ -34,6 +33,10 @@ compile project(':react-native-bgimage')
       );
     }
 ```
+
+### IOS
+When linking consider RNTBgImage.xcodeproj is in Libraries group.
+All images for usage must be available in Images.xcassets catalog.
 
 ### React Native usage (JS)
 ```
