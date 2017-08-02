@@ -10,6 +10,9 @@ Renders your android res/drawable* images in tiling mode (repeated background) i
 - run: **npm install --save react-native-bgimage**
 - run: **react-native link react-native-bgimage** (or link it manually)
 
+For React Native version < 0.47.x you must use older not compatible version
+use **npm install react-native-bgimage@1.3.0** to specify it
+
 ### To manual link
 
 - add to **android/settings.gradle** :

@@ -13,10 +13,11 @@ import java.util.ArrayList;
 
 public class BgImagePackage implements ReactPackage {
 
-  @Override
+// this is never used anymore since RN 0.47
+  /*@Override
   public List<Class<? extends JavaScriptModule>> createJSModules() {
     return Collections.emptyList();
-  }
+  }*/
 
   @Override
   public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
