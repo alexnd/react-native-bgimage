@@ -2,11 +2,19 @@
   "name": "react-native-bgimage",
   "version": "1.4.0",
   "description": "Background image view for react native",
-  "keywords": [ "react", "react native", "react-native", "react-component", "image", "background" ],
+  "keywords": [
+    "react",
+    "react native",
+    "react-native",
+    "react-component",
+    "image",
+    "background"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm pack && mv react-native-bgimage-1.4.0.tgz .. && cd ../.. && npm i react-native-bgimage"
+    "build":
+      "npm pack && mv react-native-bgimage-1.4.0.tgz .. && cd ../.. && npm i react-native-bgimage"
   },
   "repository": {
     "type": "git",
@@ -17,5 +25,8 @@
   },
   "homepage": "https://github.com/alexnd/react-native-bgimage#readme",
   "author": "Alexander Melanchenko",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
