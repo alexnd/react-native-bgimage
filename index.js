@@ -1,4 +1,4 @@
-'use strict';
+"use strict"
 
 import PropTypes from 'prop-types';
 import { requireNativeComponent, View } from 'react-native';
